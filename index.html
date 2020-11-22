@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>🧙🏻‍♂️ Quiz Wiz</title>
+    <style>
+        :root {
+            --color1: #1c2b2d;
+            --color2: #1f6f8b;
+            --accent1: #99a8b2;
+            --accent2: #e6d5b8;
+        }
+
+        body {
+            background-color: var(--color1);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            color: var(--accent2);
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(0, 128, 128);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col s6 offset-s3">
+                <h1><b>🧙🏻‍♂️ Quiz Wiz</b></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <div class="card red lighten-5">
+                    <form method="POST">
+                        <div class="row">
+                            <div class="col offset-s1">
+                                <h4>
+                                    Q1. Who is the first president of India?
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col offset-s1">
+                                <input class="btn-floating btn-large waves-effect waves-light  cyan darken-4" type="submit" name="fn"
+                                    value="1" />
+                            </div>
+                            <div class="col">
+                                <h5>Varahagiri Venkatagiri</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col offset-s1">
+                                <input class="btn-floating btn-large waves-effect waves-light cyan darken-4" type="submit" name="fn"
+                                    value="2" />
+                            </div>
+                            <div class="col">
+                                <h5>Dr. Rajendra Prasad</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col offset-s1">
+                                <input class="btn-floating btn-large waves-effect waves-light cyan darken-4" type="submit" name="fn"
+                                    value="3" />
+                            </div>
+                            <div class="col">
+                                <h5>Dr. Zakir Hussain</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col offset-s1">
+                                <input class="btn-floating btn-large waves-effect waves-light cyan darken-4" type="submit" name="fn"
+                                    value="4" />
+                            </div>
+                            <div class="col">
+                                <h5>Dr. Sarvepalli Radhakrishnan</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col offset-s1"> 
+                                <h4><b>{{OUTPUT}}</b></h4>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>     
+    </div>
+
+    <div class="footer">
+        <p>🚀 Swagat Panda | 201800523 | 43</p>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
